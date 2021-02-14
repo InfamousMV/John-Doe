@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image:url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card-box {
+    width: 15%;
+    height: 50vh;
+    background-color: rgba(250, 158, 0, 0.8);
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 9px 2px slategray;
+    transform: skewX(3deg);
+    
+  
+   }
+.profile-img {
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    bottom: 71px;
+    position: relative;
+    
+}
+.orange {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(189, 187, 184, 0.8);
+    position: relative;
+    top: 40%;
+   
+}
+.card-box:hover {
+    transform: scale(1, 0.9);
+}
+.text {
+    position: absolute;
+    left: 65%;
+    bottom: 60%;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 64px;
+    position: relative;
+    top: 20px;
+    right: 200px;
+    color: #000000; 
+}
+span {
+    color: rgba(250, 158, 0, 0.8);
+    
+}
+p {
+    font-size: 24px;
+}
+nav {
+    flex: 1;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    position: absolute;
+    top: 88%;
+    left: 75%;
+    
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 30px;
+    display: inline-block;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    color: rgba(250, 158, 0, 1);
+}
+.navbar1 {
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    position: absolute;
+    top: 88%;
+    left: 80%;
+    
+}
+.navbar1 ul li {
+    list-style: none;
+    margin-left: 30px;
+    display: inline-block;
+}
+.navbar1 ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    color: rgba(250, 158, 0, 1);
+}
+.navbar2 {
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    position: absolute;
+    top: 88%;
+    left: 85%;
+    
+    
+}
+.navbar2 ul li {
+    list-style: none;
+    margin-left: 30px;
+    display: inline-block;
+}
+.navbar2 ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    color: rgba(250, 158, 0, 1);
+}
+.navbar:hover {
+    transform:skewX(10deg);
+    
+}
+.navbar1:hover {
+    transform:skewX(10deg);
+}
+.navbar2:hover {
+    transform:skewX(10deg);
+}
+button {
+    border: solid 1px rgba(250, 158, 0, 0.8);
+    background: transparent;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    left: 50%;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+button:hover {
+    transform: skewX(20deg);
+    color: rgba(250, 158, 0, 0.8);
+}
